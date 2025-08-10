@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "npx playwright install --with-deps"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
